@@ -1,49 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huella Feliz - Inicio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huella Feliz - Inicio</title>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Navegación -->
-    <nav>
-        <ul>
-            <li><a href="Home.html">Inicio</a></li>
-            <li><a href="Servicios-productos.html">Servicios/Productos</a></li>
-            <li><a href="Contacto.html">Contacto</a></li>
-            <li><a href="modulo interactivo.html">Interacción</a></li>
-        </ul>
-    </nav>
-
-    <!-- Home -->
-    <header>
-        <h1>Bienvenidos a Huella Feliz 🐾</h1>
-        <p>Tu tienda de confianza para el cuidado y felicidad de tus mascotas.</p>
-    </header>
-
-    <main>
-        <section>
-            <h2>¿Quiénes somos?</h2>
-            <p>
-                En Huella Feliz nos dedicamos a brindar productos y servicios de alta calidad para mascotas.
-                Creemos que cada mascota es parte de la familia, por eso trabajamos con amor y compromiso.
-            </p>
-        </section>
-
-        <section>
-            <h2>¿Qué ofrecemos?</h2>
-            <p>
-                Encuentra alimentos premium, juguetes, accesorios y servicios diseñados para el bienestar de tu mascota.
-            </p>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2026 Huella Feliz - Todos los derechos reservados</p>
-    </footer>
-
+ 
+  <!-- NAVBAR -->
+  <nav>
+    <h2 class="nav-logo">Huella Feliz 🐾</h2>
+    <ul>
+      <li><a href="Home.html">Inicio</a></li>
+      <li><a href="Servicios-productos.html">Servicios</a></li>
+      <li><a href="Contacto.html">Contacto</a></li>
+      <li><a href="modulo interactivo.html">Interacción</a></li>
+    </ul>
+  </nav>
+ 
+  <!-- HERO PRINCIPAL -->
+  <header>
+    <div class="hero-text">
+      <h1>Bienvenidos a Huella Feliz 🐾</h1>
+      <p>
+        Tu tienda de confianza para el cuidado y felicidad de tus mascotas.
+        Creamos experiencias únicas para los miembros más peludos de tu familia.
+      </p>
+      <div class="hero-buttons">
+        <a href="servicios.html"><button>Explorar Servicios</button></a>
+        <a href="interactivo.html"><button class="btn-secondary">Ver Productos</button></a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://via.placeholder.com/300" alt="Mascota feliz">
+    </div>
+  </header>
+ 
+  <main>
+ 
+    <!-- SECCIÓN QUIÉNES SOMOS -->
+    <section class="section-about">
+      <div class="about-text">
+        <span class="label-tag">HISTORIA</span>
+        <h2>¿Quiénes somos?</h2>
+        <p>
+          En Huella Feliz, nuestro compromiso nace del amor profundo por los animales.
+          Somos un equipo apasionado dedicado a brindar lo mejor en nutrición, salud y bienestar.
+          Cada mascota que atendemos es tratada como si fuera nuestra.
+        </p>
+        <p class="icon-line">❤️ Pasión por el cuidado animal</p>
+      </div>
+      <div class="about-stat">
+        <h2 class="stat-number">+10</h2>
+        <p class="stat-label">Años de experiencia cuidando huellas</p>
+        <p>Certificados por expertos en comportamiento y salud animal.</p>
+      </div>
+    </section>
+ 
+    <!-- SERVICIOS DESTACADOS -->
+    <section class="section-services">
+      <h2>¿Qué ofrecemos?</h2>
+      <div>
+        <article>
+          <h3>🥣 Comida Premium</h3>
+          <p>Selección exclusiva de alimentos orgánicos y balanceados.</p>
+        </article>
+        <article>
+          <h3>🧸 Juguetes & Más</h3>
+          <p>Accesorios diseñados para estimular la mente y el cuerpo.</p>
+        </article>
+        <article>
+          <h3>✂️ Servicios Pro</h3>
+          <p>Peluquería, veterinaria y guardería profesional.</p>
+        </article>
+      </div>
+    </section>
+ 
+    <!-- CTA FINAL -->
+    <section class="section-cta">
+      <h2>¿Listo para hacer feliz a tu mascota?</h2>
+      <p>Suscríbete y recibe ofertas exclusivas directamente en tu correo.</p>
+      <form class="cta-form">
+        <input type="email" placeholder="Tu correo electrónico">
+        <button type="submit">Suscribirme</button>
+      </form>
+    </section>
+ 
+  </main>
+ 
+  <footer>
+    <p>© 2026 Huella Feliz - Todos los derechos reservados</p>
+  </footer>
+ 
 </body>
 </html>
